@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.custom-bg-ilus {
+  background: linear-gradient(132.98deg, rgba(47, 129, 174, 0.7) 45.11%, rgba(84, 49, 193, 0.7) 127.54%);
+  filter: blur(155.322px);
+}
+
+
+.one {
+  transform: translatey(0px);
+	animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-40px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+
