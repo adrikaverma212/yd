@@ -33,7 +33,7 @@ const Header =()=>
             <div className="cursor-pointer flex lg:hidden" onClick={toggleDrawer} >
                 <LuMenuSquare className="h-10 w-10 text-blue-300"/>
             </div>
-            <div className="hidden lg:flex flex-1 justify-evenly items-center text-xl w-[60%] font-bold">
+            <div className="hidden lg:flex flex-1 justify-evenly items-center text-2xl w-[60%] font-bold">
                     <div className="group relative">
                     <a href="/">Home</a>
                     <div className="absolute bottom-0 left-0 w-0 h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full origin-right"></div>
