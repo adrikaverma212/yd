@@ -1,6 +1,5 @@
 import React from "react";
 
-import question_1 from '../../public/images/question_1.png'
 
 
 const AboutSection = () =>
